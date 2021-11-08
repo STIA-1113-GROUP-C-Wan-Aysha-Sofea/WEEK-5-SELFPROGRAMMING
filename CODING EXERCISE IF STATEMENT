@@ -1,0 +1,20 @@
+package selfProgramming;
+import java.util.Scanner;
+public class IfStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter a mark: ");
+		int mark = scanMe.nextInt();
+		
+		
+		if (mark >= 80 && mark <= 100) {
+			System.out.println("Congratulation! ");
+			System.out.println("You got an A! ");	
+
+		}
+	}
+
+}
