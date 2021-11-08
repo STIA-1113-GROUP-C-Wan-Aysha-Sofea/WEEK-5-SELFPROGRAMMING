@@ -1,0 +1,21 @@
+package selfProgramming;
+import java.util.Scanner;
+public class IfandElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your age: ");
+		int age = scanMe.nextInt();
+		
+		if (age <= 18) {
+			System.out.println("this user is 18 years old or younger");
+		
+		}
+		else {
+			System.out.println("This user is older than 18 years old");
+		}
+	}
+
+}
